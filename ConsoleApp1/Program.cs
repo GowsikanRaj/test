@@ -3,6 +3,7 @@
 class Product
     {
     static void Main(string[] args) {
+        
         DateTime today = DateTime.Now;
         Console.WriteLine(today.ToString());
         
