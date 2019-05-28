@@ -5,16 +5,7 @@ class Product
     static void Main(string[] args) {
         DateTime today = DateTime.Now;
         Console.WriteLine(today.ToString());
-        string productName = "apple";
-        int productPrice = 2;
-        int productYear = 2019;
-        Console.WriteLine("Nofrills sells " + productName + " for " + productPrice + " dollars and they were harvested in the year " + productYear);
-
-        string playerName = "Bob";
-        int playerNumber = 21;
-        int playerYear = 2009;
-        Console.WriteLine(playerName + " plays for Jarvis and wears number " + playerNumber + " and was born in the year " + playerYear);
-
+        
         Console.WriteLine("Enter your first name");
         string FirstName = Console.ReadLine();
 
@@ -23,9 +14,7 @@ class Product
 
         Console.WriteLine("Enter your grade");
         string Grade = Console.ReadLine();
-
-        Console.WriteLine(FirstName + " " + LastName + " is in grade " + Grade);
-
+        
         Console.WriteLine("Hello " + FirstName + " " + LastName + ", let's play a game!");
         while (true)
         {
