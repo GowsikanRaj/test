@@ -6,10 +6,10 @@ class Product
         DateTime today = DateTime.Now;
         Console.WriteLine(today.ToString());
         
-        Console.WriteLine("Enter your first name");
+        Console.WriteLine("What is your first name");
         string FirstName = Console.ReadLine();
 
-        Console.WriteLine("Enter your last name");
+        Console.WriteLine("What is your last name");
         string LastName = Console.ReadLine();
 
         Console.WriteLine("Enter your grade");
