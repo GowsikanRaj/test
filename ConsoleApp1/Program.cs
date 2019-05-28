@@ -12,10 +12,8 @@ class Product
         Console.WriteLine("What is your last name");
         string LastName = Console.ReadLine();
 
-        Console.WriteLine("Enter your grade");
-        string Grade = Console.ReadLine();
-        
         Console.WriteLine("Hello " + FirstName + " " + LastName + ", let's play a game!");
+        
         while (true)
         {
 
